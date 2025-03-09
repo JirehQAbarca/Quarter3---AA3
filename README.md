@@ -1,1 +1,1 @@
-# Quarter3---AA3
+Hello, First, you press the link that will go to our website. After that, there will be a series of multiple questions that you will have to answer before proceeding to the next question. Then after completing the test, it will be displayed your final overall score and you will be presented a restart button where you can take the test again. Thank you!
