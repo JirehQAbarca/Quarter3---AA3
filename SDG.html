@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive SDG Quiz</title>
+    <link rel="stylesheet" href="SDGstyles.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+        <div id="quiz">
+            <h2 id="question">Question Text</h2>
+            <div id="choices"></div>
+            <button id="next-btn" onclick="nextQuestion()">Next Question</button>
+        </div>
+
+        <div id="result" style="display: none;">
+            <h2>Quiz Completed!</h2>
+            <p>Your Score: <strong><span id="score">0</span> / <span id="total-questions">0</span></strong></p>
+            <button id="restart-btn" onclick="restartQuiz()">Restart Quiz</button>
+        </div>
+    </div>
+
+    <script src="SDGjs.js"></script>
+</body>
+</html>
+
+
